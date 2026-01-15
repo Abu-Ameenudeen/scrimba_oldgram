@@ -35,9 +35,13 @@ html, body {
     margin-left: 10px;
 }
 
-.post-header, .post-reaction-section {
+.post-header, 
+.post-reaction-section,
+.likes-count,
+.cmt-highlight {
     /* border: 2px dotted;     */
     display: flex;
+    gap: .25rem;
     margin: 15px;
 }
 
