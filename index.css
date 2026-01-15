@@ -13,6 +13,7 @@ html, body {
     border: 2px dotted;
     width: 480px;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .app-logo {
