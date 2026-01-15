@@ -54,6 +54,16 @@ html, body {
 .post-reaction-btn {
     width: 35px;
     height: 35px;
+    cursor: pointer;
+    transition: opacity 0.15s ease;
+}
+
+.post-reaction-btn:hover {
+  opacity: 0.6;
+}
+
+.post-reaction-btn:active {
+  transform: scale(0.95);
 }
 
 .like-btn, 
