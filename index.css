@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans 3', system-ui, -apple-system, sans-serif;
 }
 
 .app-header {
@@ -10,14 +11,14 @@ html, body {
 }
 
 .container {
-    border: 2px dotted;
+    /* border: 2px dotted; */
     width: 480px;
     margin: 0 auto;
     padding-bottom: 20px;
 }
 
 .app-logo {
-    width: 70px;
+    width: 90px;
     height: 40px;
 }
 
@@ -55,11 +56,18 @@ html, body {
     height: 35px;
 }
 
-.like-btn, .cmt-btn, .dm-btn {
+.like-btn, 
+.cmt-btn, 
+.dm-btn {
     margin-right: 20px;
 }
 
+.text-bold {
+    font-weight: 700;
+}
 
-
+.caption-text {
+    font-weight: 400;
+}
 
 
