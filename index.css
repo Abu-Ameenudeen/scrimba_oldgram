@@ -20,7 +20,7 @@ html, body {
 }
 
 
-.user-avatar {
+.user-avatar, .feed-avatar {
     width: 42px;
     height: 42px;
     border-radius: 50%;
@@ -29,3 +29,21 @@ html, body {
 .app-logo, .user-avatar {
     margin: 10px;
 }
+
+.post-header {
+    border: 2px dotted;    
+    display: flex;
+    margin: 15px;
+}
+
+.name-location {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.feed-post {
+    width: 100%;
+}
+
+
+
