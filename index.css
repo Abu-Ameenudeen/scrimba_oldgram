@@ -10,7 +10,7 @@ html, body {
 }
 
 .container {
-    /* border: 2px dotted; */
+    border: 2px dotted;
     width: 480px;
     margin: 0 auto;
 }
@@ -38,7 +38,7 @@ html, body {
 .post-header, 
 .post-reaction-section,
 .likes-count,
-.cmt-highlight {
+.feed-caption {
     /* border: 2px dotted;     */
     display: flex;
     gap: .25rem;
