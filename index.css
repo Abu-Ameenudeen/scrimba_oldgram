@@ -3,3 +3,29 @@ html, body {
     padding: 0;
 }
 
+.app-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    border: 2px dotted;
+    width: 380px;
+    margin: 0 auto;
+}
+
+.app-logo {
+    width: 70px;
+    height: 40px;
+}
+
+
+.user-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.app-logo, .user-avatar {
+    margin: 10px;
+}
