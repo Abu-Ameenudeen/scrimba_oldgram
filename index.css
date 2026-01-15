@@ -6,11 +6,12 @@ html, body {
 .app-header {
     display: flex;
     justify-content: space-between;
+    border-bottom: 2px solid #C6C6C6;
 }
 
 .container {
-    border: 2px dotted;
-    width: 380px;
+    /* border: 2px dotted; */
+    width: 480px;
     margin: 0 auto;
 }
 
@@ -18,7 +19,6 @@ html, body {
     width: 70px;
     height: 40px;
 }
-
 
 .user-avatar, .feed-avatar {
     width: 42px;
@@ -30,20 +30,31 @@ html, body {
     margin: 10px;
 }
 
-.post-header {
-    border: 2px dotted;    
-    display: flex;
-    margin: 15px;
-}
-
 .name-location {
     margin-top: 5px;
     margin-left: 10px;
 }
 
-.feed-post {
+.post-header, .post-reaction-section {
+    /* border: 2px dotted;     */
+    display: flex;
+    margin: 15px;
+}
+
+.feed-post, .post-reaction-btn {
     width: 100%;
 }
+
+.post-reaction-btn {
+    width: 35px;
+    height: 35px;
+}
+
+.like-btn, .cmt-btn, .dm-btn {
+    margin-right: 20px;
+}
+
+
 
 
 
