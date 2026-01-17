@@ -15,6 +15,7 @@ html, body {
     width: 480px;
     margin: 0 auto;
     padding-bottom: 20px;
+    border-bottom: 15px solid #C6C6C6;
 }
 
 .app-logo {
