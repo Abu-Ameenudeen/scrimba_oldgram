@@ -1,10 +1,10 @@
-#📸 Oldagram (Instagram-style Feed)
+# 📸 Oldagram (Instagram-style Feed)
 
 Oldagram is a front-end web project inspired by Instagram’s post feed. The project dynamically renders posts from JavaScript data, applies modern CSS layout techniques, and follows clean Git workflows using feature branches.
 
 This project focuses on DOM manipulation, data-driven UI rendering, and clean UI styling, making it ideal for showcasing core front-end fundamentals.
 
-##🚀 Features
+## 🚀 Features
 
  - Dynamic rendering of posts from a JavaScript data array
   
@@ -21,7 +21,7 @@ This project focuses on DOM manipulation, data-driven UI rendering, and clean UI
  - Responsive, centered feed layout
 
 
-##🧠 Key Concepts Demonstrated
+## 🧠 Key Concepts Demonstrated
 
 JavaScript DOM manipulation
 
@@ -38,7 +38,7 @@ Hover and active UI states
 Git feature-branch workflow (main + feature branch)
 
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 HTML5 – semantic structure
 
@@ -49,7 +49,7 @@ JavaScript (ES6) – dynamic rendering and logic
 Git & GitHub – version control and branching
 
 
-##📌 How It Works
+## 📌 How It Works
 
 Post data is stored as an array of objects in index.js
 
